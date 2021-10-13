@@ -1,0 +1,27 @@
+@media screen and (min-width: 600px) { 
+    .ikonky {
+        display: grid;        
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ikonky_kategorie {
+        color: rgb(253, 83, 4);
+        font-size: 13px;
+    }
+
+    .ikonky_anotace {
+        font-size: 12px;
+    }
+    
+    .ikonky_podpora, .ikonky_letiste, .ikonky_svet, .ikonky_bezpeci {
+        background-color: rgb(240, 230, 230);
+        padding: 15px 15px 0 15px;
+    }
+
+    .ikonka {
+        height: 25px;    
+    }
+}

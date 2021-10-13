@@ -1,0 +1,32 @@
+.Novinky {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 600px) { 
+    .novinky_ikonky {
+        display: grid;        
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+ 
+    .novinky_ikonky_obal {
+        background-color: rgb(240, 230, 230);
+        text-align: left;
+        padding: 15px;
+    }
+
+    .novinky_ikonky_datum {
+        font-size: 10px;
+        color: grey;
+    }
+    .novinky_ikonky_titulek {
+        color: rgb(253, 83, 4);
+        font-size: 11px;    
+    }
+    .novinky_ikonky_text {
+        font-size: 11px;
+    }
+}

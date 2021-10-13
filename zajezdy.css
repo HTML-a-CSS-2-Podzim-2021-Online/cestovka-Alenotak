@@ -1,0 +1,110 @@
+@media screen and (min-width: 600px) { 
+    .nabidka {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.nabidka_palmy {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url(podklady/palmy.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.nabidka_jezero {
+    grid-column: 2 / 3;
+    grid-row: 3 / -2;
+    background-image: url(podklady/jezero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nabidka_nakole {
+    grid-column: -2 / -1;
+    background-image: url(podklady/nakole.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nabidka_cena {
+    border: 9px solid rgb(253, 83, 4) ;
+    width: 50px;
+    margin-left: 9px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(253, 83, 4);
+}
+
+.nabidka_anotace, .lastminute_anotace {
+    margin-top: 150px;
+}
+
+.nabidka_anotace_hlavni {
+    font-size: 15px;
+    font-weight: bold;
+}
+.nabidka_anotace_hlavnipopisek, .lastminute_anotace_hlavnipopisek {
+    font-size: 10px;
+}
+.nabidka_anotace_popisek, .lastminute_anotace_popisek {
+    font-size: 12px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.nabidka_anotace_hlavni, .nabidka_anotace_hlavnipopisek, .nabidka_anotace_popisek{
+    color: white;
+    margin-left: 9px;
+}
+
+.lastminute_zajezdy {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.lastminute_podkova{
+    grid-column-end: 1 / 2;
+    grid-row: 1 / 2;
+    background-image: url(podklady/podkova.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lastminute_zatoka {
+    grid-column-end: 2 / 3;
+    grid-row: 3 / -2;
+    background-image: url(podklady/zatoka.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.lastminute_lodicka {
+    grid-column: 2 / 3;
+    grid-row: -3 / -1;
+    background-image: url(podklady/lodicka.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.lastminute {
+    font-size: 15px;
+    font-weight: bold;
+}
+.lastminute_anotace_hlavni {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lastminute_anotace_hlavni, .lastminute_anotace_hlavnipopisek, .lastminute_anotace_popisek {
+    color: white;
+    margin-left: 9px;
+}
+}

@@ -1,0 +1,23 @@
+@import "hlavicka.css";
+@import "zajezdy.css";
+@import "ikonky.css";
+@import "novinky.css";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.html  {
+    width: 100%;
+}
+ 
+.zahlavi {
+    text-align: center;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    font-size: 11px;
+    height: 33px;
+    padding-top: 14px;
+}
